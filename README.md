@@ -1,7 +1,6 @@
 # Dragonviews
 
-> Include a copyright notice where appropriate by referring to the gem copyright method:
-> @copyright = DragonViews::Renderer.copyright "Dragons", "All rights reserved"
+> Include a copyright notice where appropriate in your application
 
 ## Installation
 
@@ -21,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Set an instance variable that can then be used in views, view helpers or controllers as appropriate:
+
+```ruby
+@copyright = DragonViews::Renderer.copyright "Dragonicity", "All rights reserved"
+```
 
 ## Development
 
